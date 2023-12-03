@@ -46,5 +46,10 @@ namespace Tyuiu.IvashkinaKE.Sprint6.Task0.V7
         {
             MessageBox.Show("Таск 0 выполнила студент группы АСОиУб-23-1 Ивашкина Кристина Эдуардовна", "Сообщение");  
         }
+
+        private void groupBoxResult_IKE_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

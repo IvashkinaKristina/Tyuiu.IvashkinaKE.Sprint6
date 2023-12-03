@@ -117,6 +117,7 @@ namespace Tyuiu.IvashkinaKE.Sprint6.Task0.V7
             this.groupBoxResult_IKE.TabIndex = 2;
             this.groupBoxResult_IKE.TabStop = false;
             this.groupBoxResult_IKE.Text = "Вывод данных";
+            this.groupBoxResult_IKE.Enter += new System.EventHandler(this.groupBoxResult_IKE_Enter);
             // 
             // textBoxResult_IKE
             // 
