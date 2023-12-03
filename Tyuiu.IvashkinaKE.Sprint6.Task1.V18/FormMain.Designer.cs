@@ -32,6 +32,7 @@ namespace Tyuiu.IvashkinaKE.Sprint6.Task1.V18
             this.groupBoxTask_IKE = new System.Windows.Forms.GroupBox();
             this.textBoxTask_IKE = new System.Windows.Forms.TextBox();
             this.groupBoxResult_IKE = new System.Windows.Forms.GroupBox();
+            this.labelResult_IKE = new System.Windows.Forms.Label();
             this.textBoxResult_IKE = new System.Windows.Forms.TextBox();
             this.groupBoxInputData_IKE = new System.Windows.Forms.GroupBox();
             this.labelStopStep_IKE = new System.Windows.Forms.Label();
@@ -40,7 +41,6 @@ namespace Tyuiu.IvashkinaKE.Sprint6.Task1.V18
             this.textBoxStartStep_IKE = new System.Windows.Forms.TextBox();
             this.buttonHelp_IKE = new System.Windows.Forms.Button();
             this.buttonDone_IKE = new System.Windows.Forms.Button();
-            this.labelResult_IKE = new System.Windows.Forms.Label();
             this.groupBoxTask_IKE.SuspendLayout();
             this.groupBoxResult_IKE.SuspendLayout();
             this.groupBoxInputData_IKE.SuspendLayout();
@@ -63,7 +63,7 @@ namespace Tyuiu.IvashkinaKE.Sprint6.Task1.V18
             this.textBoxTask_IKE.Multiline = true;
             this.textBoxTask_IKE.Name = "textBoxTask_IKE";
             this.textBoxTask_IKE.ReadOnly = true;
-            this.textBoxTask_IKE.Size = new System.Drawing.Size(404, 286);
+            this.textBoxTask_IKE.Size = new System.Drawing.Size(413, 286);
             this.textBoxTask_IKE.TabIndex = 0;
             this.textBoxTask_IKE.Text = "Протабулировать функцию f(x) на заданном диапазоне. Результат вывести в виде табл" +
     "ице. ";
@@ -78,6 +78,15 @@ namespace Tyuiu.IvashkinaKE.Sprint6.Task1.V18
             this.groupBoxResult_IKE.TabIndex = 1;
             this.groupBoxResult_IKE.TabStop = false;
             this.groupBoxResult_IKE.Text = "Вывод данных";
+            // 
+            // labelResult_IKE
+            // 
+            this.labelResult_IKE.AutoSize = true;
+            this.labelResult_IKE.Location = new System.Drawing.Point(8, 22);
+            this.labelResult_IKE.Name = "labelResult_IKE";
+            this.labelResult_IKE.Size = new System.Drawing.Size(76, 17);
+            this.labelResult_IKE.TabIndex = 4;
+            this.labelResult_IKE.Text = "Результат";
             // 
             // textBoxResult_IKE
             // 
@@ -159,15 +168,6 @@ namespace Tyuiu.IvashkinaKE.Sprint6.Task1.V18
             this.buttonDone_IKE.Text = "Выполнить";
             this.buttonDone_IKE.UseVisualStyleBackColor = false;
             this.buttonDone_IKE.Click += new System.EventHandler(this.buttonDone_IKE_Click);
-            // 
-            // labelResult_IKE
-            // 
-            this.labelResult_IKE.AutoSize = true;
-            this.labelResult_IKE.Location = new System.Drawing.Point(8, 22);
-            this.labelResult_IKE.Name = "labelResult_IKE";
-            this.labelResult_IKE.Size = new System.Drawing.Size(76, 17);
-            this.labelResult_IKE.TabIndex = 4;
-            this.labelResult_IKE.Text = "Результат";
             // 
             // FormMain
             // 
