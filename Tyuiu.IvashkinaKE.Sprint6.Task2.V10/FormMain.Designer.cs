@@ -141,7 +141,7 @@ namespace Tyuiu.IvashkinaKE.Sprint6.Task2.V10
             this.chartFunction.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chartFunction.Legends.Add(legend1);
-            this.chartFunction.Location = new System.Drawing.Point(167, 44);
+            this.chartFunction.Location = new System.Drawing.Point(161, 60);
             this.chartFunction.Name = "chartFunction";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;

@@ -195,6 +195,7 @@ namespace Tyuiu.IvashkinaKE.Sprint6.Task4.V14
             this.groupBoxOutPutData_IKE.TabIndex = 0;
             this.groupBoxOutPutData_IKE.TabStop = false;
             this.groupBoxOutPutData_IKE.Text = "Вывод:";
+            this.groupBoxOutPutData_IKE.Enter += new System.EventHandler(this.groupBoxOutPutData_IKE_Enter);
             // 
             // textBoxResult_IKE
             // 
