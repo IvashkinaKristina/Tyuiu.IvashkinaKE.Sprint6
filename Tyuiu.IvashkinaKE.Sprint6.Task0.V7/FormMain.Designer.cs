@@ -96,6 +96,7 @@ namespace Tyuiu.IvashkinaKE.Sprint6.Task0.V7
             this.textBoxVarX_IKE.Name = "textBoxVarX_IKE";
             this.textBoxVarX_IKE.Size = new System.Drawing.Size(100, 22);
             this.textBoxVarX_IKE.TabIndex = 1;
+            this.textBoxVarX_IKE.TextChanged += new System.EventHandler(this.textBoxVarX_IKE_TextChanged);
             this.textBoxVarX_IKE.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxVarX_KeyPress);
             // 
             // labelVarX_IKE

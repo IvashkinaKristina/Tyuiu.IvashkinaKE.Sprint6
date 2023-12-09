@@ -51,5 +51,10 @@ namespace Tyuiu.IvashkinaKE.Sprint6.Task0.V7
         {
 
         }
+
+        private void textBoxVarX_IKE_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
