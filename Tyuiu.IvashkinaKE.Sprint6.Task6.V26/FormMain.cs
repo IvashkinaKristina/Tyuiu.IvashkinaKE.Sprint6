@@ -44,8 +44,9 @@ private void buttonOpenFile_IKE_Click(object sender, EventArgs e)
             formAbout.ShowDialog();
         }
 
-        
+        private void buttonOpenFile_IKE_Click_1(object sender, EventArgs e)
+        {
 
-        
+        }
     }
 }
